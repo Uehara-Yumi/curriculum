@@ -10,7 +10,7 @@ public class Task1_5 {
     public static void main(String[] args) {
 
         // ① 「みかん」、「りんご」、「ぶどう」、「メロン」の値を設定した配列 fruits を作成してください。
-        String [] fruits = {"みかん", "りんご", "メロン"};
+        String [] fruits = {"みかん", "りんご", "ぶどう", "メロン"};
 
         // ② for文を使って①で作成した配列を出力しなさい。
         for(int a = 0; a < fruits.length; a++){
@@ -41,9 +41,9 @@ public class Task1_5 {
         */
 
         for(int b = 1; b <= 9; b++){
-            System.out.print(b + "||");
+            System.out.print(b + " ||");
             for(int c = 1; c <= 9; c++){
-            System.out.print(c + "|");
+            System.out.print(" " + b*c + " | ");
             }
             System.out.println();
         }
