@@ -13,11 +13,11 @@ public class Task1_3 {
         int multiply = 10 * 2;
 
         // ④ 20 を 6 で割った余りを代入する、変数 remi を作成しなさい。
-        int remi = 20 / 6;
+        int remi = 20 % 6;
 
         // ⑤下記の処理について、何をしているのかコメントを記入してください
-        // Stringクラスの変数townを宣言し、値「有楽町」で初期化。
-        // Stringクラスの変数lineを宣言し、値「線」で初期化。
+        //「有楽町」を代入する、変数 town を作成。
+        //「線」を代入する、変数 line を作成。 
         String town = "有楽町";
         String line = "線";
 
