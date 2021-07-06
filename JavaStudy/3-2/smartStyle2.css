@@ -20,24 +20,13 @@
 }
 
 @media screen and (max-width: 479px){
-    .header{
+    #wrapper{
         width:150px;
     }
-    .left{
-        width:150px;
+    .main{
         float:none;
     }
-    .right{
-        width:150px;
+    .right-tops{
         float:none;
-    }
-    .right-top-left{
-        float:none;
-    }
-    .right-top-right{
-        float:none;
-    }
-    .bottom{
-        width:150px;
     }
 }
